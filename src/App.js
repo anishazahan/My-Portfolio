@@ -1,12 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 import Navbar from './Components/Shared/Navbar';
+import Home from './Components/Pages/Home/Home';
 
 function App() {
   return (
     <div>
-      <Navbar></Navbar>
-    <h2 className='text-xl font-bold text-primary'>Hellow world</h2>
+      <Navbar>
+        <Home></Home>
+      </Navbar>
+    
     </div>
   );
 }
