@@ -1,10 +1,13 @@
 .logo{
     color:#ffe2a9e6;
-    font-weight: 900;
-    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-family: 'Oleo Script', cursive;
     word-spacing: 10px;
 }
 .logo-fast-letter{
-    font-size: 30px;
-    color: #0AA1DD;
+    font-size: 45px;
+    color: #85586F;
+}
+.menu{
+    color:#ffe2a9e6;
 }
