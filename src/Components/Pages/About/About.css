@@ -22,7 +22,7 @@
 }
 .about-img{
     width: auto;
-    height: 500px;
+    height: 450px;
     border-radius: 200px 0 10px 0;
     background-color: rgba(127, 255, 212, 0.904);
     padding-left: 50px;
@@ -41,6 +41,16 @@
     background-color: #4B2B30;
     color: bisque;
     border-radius: 2px;
+    transition: 1s;
+    
+
+}
+.about-btn:hover{
+  
+ 
+    color: #4B2B30;
+    border-radius: 2px;
+    background-color:#ffe2a9e6;
     
 
 }
