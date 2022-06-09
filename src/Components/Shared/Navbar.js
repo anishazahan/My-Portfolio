@@ -28,7 +28,7 @@ const Navbar = ({children}) => {
           <li><Link className='menu' to="/">Home</Link></li>
           <li><Link className='menu' to="/">Services</Link></li>
           <li><Link className='menu' to="/">Portfolio</Link></li>
-          <li><Link className='menu' to="/">About</Link></li>
+          <li><Link className='menu' to="/about">About</Link></li>
           <li><Link className='menu' to="/">Contact</Link></li>
          
         </ul>
