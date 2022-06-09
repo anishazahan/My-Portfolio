@@ -26,7 +26,7 @@ const Navbar = ({children}) => {
         <ul className="menu menu-horizontal">
           
           <li><Link className='menu' to="/">Home</Link></li>
-          <li><Link className='menu' to="/">Services</Link></li>
+          <li><Link className='menu' to="/services">Services</Link></li>
           <li><Link className='menu' to="/">Portfolio</Link></li>
           <li><Link className='menu' to="/about">About</Link></li>
           <li><Link className='menu' to="/">Contact</Link></li>
