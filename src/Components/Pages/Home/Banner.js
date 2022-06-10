@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './Banner.css'
+import resume from './Anisha _Zahan_ resume.pdf'
 
 
 
@@ -14,8 +15,8 @@ const Banner = () => {
             
             <p className='banner-text'>I am a React JS developer,Web designer.I will create Your website <br/> as your creative choice! </p>
             <Link className='banner-btn1' to="/">Contact Me</Link>
-            <a className='banner-btn2 ml-4' href='../../../assets/Anisha Zahan resume.pdf'
-             target='_blank'  >Download Resume</a>
+            <a className='banner-btn2 ml-4' href={resume}
+             target='_blank'  >See Resume</a>
       </div>
     
      </div>
