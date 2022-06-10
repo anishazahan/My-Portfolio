@@ -2,6 +2,7 @@ import React from 'react'
 import './Services.css'
 import img from '../../../assets/img/Typing-bro.png'
 import responsiveImg from '../../../assets/img/responsive.svg'
+import developmentImg from '../../../assets/img/development.svg'
 
 const Services = () => {
   return (
@@ -27,10 +28,11 @@ const Services = () => {
                 <h2 className='text-xl service-name'>Web design</h2>
                 <p className='service-text'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In possimus eligendi cum laborum blanditiis nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, ut. </p>
             </div>
+
         <div className="box shadow-md px-4 pb-5 text-center">
-                <img className='img-design' src={img} alt="" />
-                <h2 className='text-xl service-name'>Web design</h2>
-                <p className='service-text'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In possimus eligendi cum laborum blanditiis nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, ut. </p>
+                <img className='img-design' src={developmentImg} alt="" />
+                <h2 className='text-xl service-name'>Web development</h2>
+                <p className='service-text'>I have so much experience in Web Development. Development means Full Website creation. I know and I have so much experience in web site development </p>
             </div>
             <div className="box shadow-md px-4 pb-5 text-center">
                 <img className='img-design' src={img} alt="" />
