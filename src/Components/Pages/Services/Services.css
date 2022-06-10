@@ -21,14 +21,19 @@
    
    
 }
+
 .box{
     /* background-color:#ffe2a919 ; */
     /* border: 1px solid #ffe2a9e6; */
     min-height: 250px;
 }
 .img-design{
-    width: 150px;
-    height: auto;
+    width: auto;
+    height: 100px;
     margin: auto;
   
+}
+.service-name{
+    color: #4B2B30;
+    margin: 10px 0;
 }
