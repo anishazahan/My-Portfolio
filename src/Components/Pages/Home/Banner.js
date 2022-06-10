@@ -14,7 +14,8 @@ const Banner = () => {
             
             <p className='banner-text'>I am a React JS developer,Web designer.I will create Your website <br/> as your creative choice! </p>
             <Link className='banner-btn1' to="/">Contact Me</Link>
-            <Link className='banner-btn2 ml-4' to="/">Download Resume</Link>
+            <a className='banner-btn2 ml-4' href='../../../assets/Anisha Zahan resume.pdf'
+             target='_blank'  >Download Resume</a>
       </div>
     
      </div>

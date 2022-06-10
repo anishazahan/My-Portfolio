@@ -1,5 +1,6 @@
 .contact-heading{
     color: #4B2B30;
+    letter-spacing: 1.5px;
 }
 input{
     border: 2px solid #4B2B30;
@@ -12,11 +13,19 @@ textarea{
     padding: 8px 15px;
     margin: 5px;
     width: 100%;
+    margin-bottom: 15px;
 
 }
 .form-width{
     width: 40%;
 }
 .contact-background{
-    background-color:#ffe2a919 ;
+    background-color:#ffe2a93a ;
+}
+.img{
+    background-color: #4B2B30;
+}
+.submit{
+    background-color: #4B2B30;
+    color: #ffe2a9e6;
 }
