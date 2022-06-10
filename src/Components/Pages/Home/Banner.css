@@ -1,6 +1,7 @@
 .banner {
-
-    background: url('https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2018/11/dark-wallpapers.jpg?q=50&fit=contain&w=1500&h=750&dpr=1.5');
+/* 
+    background: url('https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2018/11/dark-wallpapers.jpg?q=50&fit=contain&w=1500&h=750&dpr=1.5'); */
+    background: linear-gradient( to right,rgba(0, 0, 0, 0.281) 40%,rgba(0, 0, 0, 0.087)) ,url("https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2018/11/dark-wallpapers.jpg?q=50&fit=contain&w=1500&h=750&dpr=1.5");
 
     background-size: cover;
     width: 100%;
@@ -9,7 +10,7 @@
 }
 
 .flex-item {
-    padding-left: 10%;
+   margin-top: 5%;
     max-width: 1300px;
 }
 
@@ -26,9 +27,9 @@
     margin-bottom: 15px;
 }
 
-.name {
-    color: #86D8DC;
-}
+/* .name {
+    color: #44000D;
+} */
 
 .banner-text {
     color: #f1e4c8;
@@ -69,6 +70,11 @@
     color: black;
     background-color: #f1c05de6;
     transition: 1s;
+}
+.img{
+    width: 600px;
+    height: auto;
+    padding-right: 100px;
 }
 
 
