@@ -25,8 +25,20 @@ textarea{
 }
 .img{
     background-color: #4B2B30;
+    width: 80%;
+    height: auto;
 }
 .submit{
     background-color: #4B2B30;
     color: #ffe2a9e6;
 }
+
+@media (max-width:1300px) {
+    .img{
+        display: none;
+    }
+    .form-width {
+        margin: auto;
+    }
+}
+
