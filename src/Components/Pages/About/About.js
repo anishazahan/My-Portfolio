@@ -13,10 +13,10 @@ const About = () => {
                 
                <div className=" flex flex-row justify-between mt-5">
                <div className="flex flex-row">
-               <Link to ="/" className='icon'><FaFacebookSquare></FaFacebookSquare> </Link>
-                <Link to ="/" className='icon'><FaLinkedin></FaLinkedin> </Link>
-                <Link to ="/" className='icon'><FaSkype></FaSkype> </Link>
-                <Link to ="/" className='icon'><FaGooglePlus></FaGooglePlus> </Link>
+               <Link to ="/" className='icon shadow-lg'><FaFacebookSquare></FaFacebookSquare> </Link>
+                <Link to ="/" className='icon shadow-lg'><FaLinkedin></FaLinkedin> </Link>
+                <Link to ="/" className='icon shadow-lg'><FaSkype></FaSkype> </Link>
+                <Link to ="/" className='icon shadow-lg'><FaGooglePlus></FaGooglePlus> </Link>
                </div>
                 <div className="mr-14">
                 <Link to="about" className='about-btn'>About More</Link>

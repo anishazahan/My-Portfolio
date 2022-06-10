@@ -22,10 +22,13 @@
    
 }
 .box{
-    background-color:#ffe2a919 ;
-    border: 1px solid #ffe2a9e6;
+    /* background-color:#ffe2a919 ; */
+    /* border: 1px solid #ffe2a9e6; */
     min-height: 250px;
 }
-.service-text{
+.img-design{
+    width: 150px;
+    height: auto;
+    margin: auto;
   
 }
