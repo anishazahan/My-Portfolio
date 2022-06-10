@@ -1,1 +1,27 @@
+.Projects-heading{
+    color: #4B2B30;
+    letter-spacing: 1.5px;
+}
+.project-name{
+    color: #4B2B30;
+    letter-spacing: 1.5px;
+}
+.projects-box {
+    border: 1px solid #4B2B30;
+    background-color:#ffe2a93a ;
+}
+.project-img{
+    width: 100%;
+    height: 200px;
+    
+}
+.peoject-details-btn{
+    padding: 10px 15px;
+    background-color: #4B2B30;
+    text-align: left;
+    color: antiquewhite;
+}
+.peoject-details-btn:hover{
+    background-color: #4b2b3077;
+}
 
