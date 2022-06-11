@@ -3,6 +3,9 @@ import './Services.css'
 import img from '../../../assets/img/Typing-bro.png'
 import responsiveImg from '../../../assets/img/responsive.svg'
 import developmentImg from '../../../assets/img/development.svg'
+import userInterfaceImg from '../../../assets/img/userInterface.svg'
+import reactImg from '../../../assets/img/Static website-amico.svg'
+import psdImg from '../../../assets/img/Source code-amico.svg'
 
 const Services = () => {
   return (
@@ -24,24 +27,24 @@ const Services = () => {
                 <p className='service-text'>I am working with web design in the last 2 years. Now I have so much experience and I have completed so much design. I have so many clients to work with web design. </p>
             </div>
         <div className="box shadow-md px-4 pb-5 text-center">
-                <img className='img-design' src={img} alt="" />
-                <h2 className='text-xl service-name'>PSD To HTML</h2>
+                <img className='img-design' src={psdImg} alt="" />
+                <h2 className='text-2xl service-name'>PSD To HTML</h2>
                 <p className='service-text'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In possimus eligendi cum laborum blanditiis nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, ut. </p>
             </div>
 
         <div className="box shadow-md px-4 pb-5 text-center">
                 <img className='img-design' src={developmentImg} alt="" />
-                <h2 className='text-xl service-name'>Web development</h2>
+                <h2 className='text-2xl service-name'>Web development</h2>
                 <p className='service-text'>I have so much experience in Web Development. Development means Full Website creation. I know and I have so much experience in web site development </p>
             </div>
             <div className="box shadow-md px-4 pb-5 text-center">
-                <img className='img-design' src={img} alt="" />
-                <h2 className='text-xl service-name'>UI UX Design</h2>
+                <img className='img-design' src={userInterfaceImg} alt="" />
+                <h2 className='text-2xl service-name'>UI UX Design</h2>
                 <p className='service-text'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In possimus eligendi cum laborum blanditiis nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, ut. </p>
             </div>
             <div className="box shadow-md px-4 pb-5 text-center">
-                <img className='img-design' src={img} alt="" />
-                <h2 className='text-xl service-name'>React Application</h2>
+                <img className='img-design' src={reactImg} alt="" />
+                <h2 className='text-2xl service-name'>React Application</h2>
                 <p className='service-text'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In possimus eligendi cum laborum blanditiis nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, ut. </p>
             </div>
         </div>
