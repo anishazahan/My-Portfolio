@@ -1,16 +1,34 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import {FaFacebookSquare,FaLinkedin,FaSkype,FaGooglePlus } from "react-icons/fa";
 
 const FooterSection = () => {
   return (
-    <div className='FooterSection-section py-10 bg-black'>
-       <div className="footer-content text-center">
-       <p>Thanks for Visit my Web Page</p>
-      <div className="divied px-40">
-      <hr />
+    <footer class="footer p-10 bg-black text-base-content px-20 text-gray-400">
+    <div>
+      <span class="footer-title">Services</span> 
+      <Link to='services' class="link link-hover">Web Development</Link> 
+      <Link to='services' class="link link-hover">UI UX Design</Link> 
+      <Link to='services' class="link link-hover">React Application</Link> 
+      <Link to='services' class="link link-hover">Web Design</Link>
+    </div> 
+    <div>
+      <span class="footer-title">Portfolio</span> 
+      <Link to='about' class="link link-hover">About us</Link> 
+      <Link to='contact' class="link link-hover">Contact</Link> 
+      <Link to='services' class="link link-hover">Services</Link> 
+      <Link to='home' class="link link-hover">Blog</Link>
+    </div> 
+    <div>
+      <span class="footer-title">Social</span> 
+      <div class="grid grid-flow-col">
+      <Link to ="/" className='icon shadow-lg'><FaFacebookSquare></FaFacebookSquare> </Link>
+                <Link to ="/" className='icon shadow-lg'><FaLinkedin></FaLinkedin> </Link>
+                <Link to ="/" className='icon shadow-lg'><FaSkype></FaSkype> </Link>
+                <Link to ="/" className='icon shadow-lg'><FaGooglePlus></FaGooglePlus> </Link>
       </div>
-        <small className='foter-end'>Copy right all right reserve by Anisha Zahan in 2022</small>
-       </div>
     </div>
+  </footer>
   )
 }
 
