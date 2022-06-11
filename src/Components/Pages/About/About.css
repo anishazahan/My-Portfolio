@@ -3,7 +3,7 @@
 }
 .about-heading{
     letter-spacing:1px;
-    color: #4B2B30;
+    color: #87431D;
     border-bottom: 2px solid #ddd;
     display: inline;
     padding-right: 20px;
@@ -15,7 +15,7 @@
 }
 .about-heading::before{
     content: " I am Fronted";
-    border-bottom: 2px solid #4B2B30;
+    border-bottom: 2px solid #87431D;
     padding-bottom: 5px;
     margin-bottom: 20px;
  
@@ -24,14 +24,14 @@
     width: auto;
     height: 450px;
     border-radius: 200px 0 10px 0;
-    background-color: #4B2B30;
+    background-color: #87431D;
     padding-left: 50px;
     margin: auto;
 }
 .icon{
     margin-right: 10px;
     font-size: 25px;
-    color: #4B2B30;
+    color: #87431D;
     padding: 5px;
     transition: 1s;
   
@@ -43,7 +43,7 @@
 }
 .about-btn{
     padding: 10px 15px;
-    background-color: #4B2B30;
+    background-color: #87431D;
     color: bisque;
     border-radius: 2px;
     transition: 1s;
@@ -51,7 +51,7 @@
 
 }
 .about-btn:hover{
-    color: #4B2B30;
+    color: #87431D;
     border-radius: 2px;
     background-color:#ffe2a9e6;
     

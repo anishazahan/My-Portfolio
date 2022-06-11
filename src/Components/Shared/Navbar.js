@@ -27,9 +27,9 @@ const Navbar = ({children}) => {
           
           <li><Link className='menu' to="/">Home</Link></li>
           <li><Link className='menu' to="/services">Services</Link></li>
-          <li><Link className='menu' to="/">Portfolio</Link></li>
+          <li><Link className='menu' to="/projects">Projects</Link></li>
           <li><Link className='menu' to="/about">About</Link></li>
-          <li><Link className='menu' to="/">Contact</Link></li>
+          <li><Link className='menu' to="/contact">Contact</Link></li>
          
         </ul>
       </div>
@@ -41,9 +41,11 @@ const Navbar = ({children}) => {
   <div className="drawer-side">
     <label htmlFor="my-drawer-3" className="drawer-overlay"></label> 
     <ul className="menu p-4 overflow-y-auto w-80 bg-base-100">
-    
-      <li><a>Sidebar Item 1</a></li>
-      <li><a>Sidebar Item 2</a></li>
+          <li><Link className='menu' to="/">Home</Link></li>
+          <li><Link className='menu' to="/services">Services</Link></li>
+          <li><Link className='menu' to="/projects">Projects</Link></li>
+          <li><Link className='menu' to="/about">About</Link></li>
+          <li><Link className='menu' to="/contact">Contact</Link></li>
       
     </ul>
     

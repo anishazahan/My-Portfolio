@@ -6,11 +6,11 @@ import developmentImg from '../../../assets/img/development.svg'
 
 const Services = () => {
   return (
-    <div className='px-20 mb-14 max-w-7xl mx-auto'>
+    <div className='px-20 mb-14 max-w-7xl mx-auto mt-10'>
         <div className="service text-center mb-10">
         <h2 className=' servicing-heading text-3xl p-7'>My Services</h2>
         </div>
-        <p className=' text-center mb-9'>You will get 100% full service of work assured until you are fully satisfied</p>
+        <p className=' text-center mb-16'>You will get 100% full service of work assured until you are fully satisfied</p>
 
         <div className="grid sm:grid-col-1 md:grid-cols-2 lg:grid-cols-3 gap-y-5 gap-x-4">
         <div className="box shadow-md px-4 pb-5 text-center">
@@ -25,7 +25,7 @@ const Services = () => {
             </div>
         <div className="box shadow-md px-4 pb-5 text-center">
                 <img className='img-design' src={img} alt="" />
-                <h2 className='text-xl service-name'>Web design</h2>
+                <h2 className='text-xl service-name'>PSD To HTML</h2>
                 <p className='service-text'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In possimus eligendi cum laborum blanditiis nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, ut. </p>
             </div>
 
@@ -36,12 +36,12 @@ const Services = () => {
             </div>
             <div className="box shadow-md px-4 pb-5 text-center">
                 <img className='img-design' src={img} alt="" />
-                <h2 className='text-xl service-name'>Web design</h2>
+                <h2 className='text-xl service-name'>UI UX Design</h2>
                 <p className='service-text'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In possimus eligendi cum laborum blanditiis nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, ut. </p>
             </div>
             <div className="box shadow-md px-4 pb-5 text-center">
                 <img className='img-design' src={img} alt="" />
-                <h2 className='text-xl service-name'>Web design</h2>
+                <h2 className='text-xl service-name'>React Application</h2>
                 <p className='service-text'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In possimus eligendi cum laborum blanditiis nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, ut. </p>
             </div>
         </div>

@@ -1,13 +1,13 @@
 .Projects-heading{
-    color: #4B2B30;
+    color: #87431D;
     letter-spacing: 1.5px;
 }
 .project-name{
-    color: #4B2B30;
+    color: #87431D;
     letter-spacing: 1.5px;
 }
 .projects-box {
-    border: 1px solid #4B2B30;
+    border: 1px solid #87431D;
     background-color:#ffe2a93a ;
 }
 .project-img{
@@ -17,11 +17,11 @@
 }
 .peoject-details-btn{
     padding: 10px 15px;
-    background-color: #4B2B30;
+    background-color: #87431D;
     text-align: left;
     color: antiquewhite;
 }
 .peoject-details-btn:hover{
-    background-color: #4b2b3077;
+    background-color: #87431D77;
 }
 

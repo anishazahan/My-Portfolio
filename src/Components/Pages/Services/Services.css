@@ -5,7 +5,7 @@
     position: relative;
     border-bottom: 0.12rem solid rgb(196 155 102);
     padding-bottom: 0.7rem;
-    color: #4B2B30;
+    color: #87431D;
    
 }
 .servicing-heading::before{
@@ -14,7 +14,7 @@
     content: "";
     width: 30%;
     height: 0.2rem;
-    background: #4B2B30;
+    background: #87431D;
     bottom: -4%;
     margin: auto;
     left: 35%;
@@ -34,6 +34,6 @@
   
 }
 .service-name{
-    color: #4B2B30;
+    color: #87431D;
     margin: 10px 0;
 }
