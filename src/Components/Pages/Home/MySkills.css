@@ -1,0 +1,24 @@
+.skill-heading{
+    text-align: center;
+    color: #87431D;
+    letter-spacing: 1.5;
+}
+.skill-letter{
+    color: #87431D;
+    font-size: 50px;
+    margin-left: 6px;
+}
+
+.skill-btn{
+  
+    padding: 5x 15px;
+    margin: 5px;
+    
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 50px;
+    border-radius: 10px;
+    background: #e0e0e0;
+    box-shadow:  9px 9px 18px #6c6c6c,
+                 -9px -9px 18px #ffffff;
+}
