@@ -3,9 +3,10 @@ import './About.css'
 import photo from '../../../assets/img/pexels-photo-4482897.jpeg'
 import { Link } from 'react-router-dom'
 import {FaFacebookSquare,FaLinkedin,FaSkype,FaGooglePlus } from "react-icons/fa";
+import MySkills from '../Home/MySkills';
 const About = () => {
   return (
-    <div className="bg-gray-100 pt-8 pb-2">
+    <div className="bg-gray-100 pt-2 pb-2">
       <div className='maxWidth mx-auto grid md:grid-cols-1 lg:grid-cols-2 md:p-10 grid-cols-1 lg:my-20  gap-3 sm:px-16 sm:m-12 xl:mx-auto '>
        
        <div className="text-section pt-20">
@@ -31,7 +32,10 @@ const About = () => {
    </div>
   
 </div>
+
+<MySkills></MySkills>
     </div>
+   
   )
 }
 

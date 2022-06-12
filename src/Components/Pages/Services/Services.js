@@ -8,6 +8,9 @@ import reactImg from '../../../assets/img/Static website-amico.svg'
 import psdImg from '../../../assets/img/Source code-amico.svg'
 
 const Services = () => {
+
+
+
   return (
     <div className='px-20 mb-14 max-w-7xl mx-auto mt-10'>
         <div className="service text-center mb-10">

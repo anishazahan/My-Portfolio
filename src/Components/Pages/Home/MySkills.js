@@ -4,7 +4,7 @@ import skillImg from '../../../assets/img/skills.png'
 
 const MySkills = () => {
   return (
-    <div className="bg-gray-100">
+    <div className="bg-gray-100 pb-10">
       <h2 className="skill-heading text-2xl">
         My <span className="skill-letter">S</span>kills{" "}
       </h2>

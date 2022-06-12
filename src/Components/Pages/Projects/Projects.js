@@ -1,31 +1,30 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './Projects.css'
-import landscape from '../../../assets/img/landscape2.png'
-import landscapeOrg from '../../../assets/img/lanscape-original.png'
-import cars from '../../../assets/img/cars.png'
-import { Link } from 'react-router-dom'
+import SingleProjects from './SingleProjects';
+
 
 
 const Projects = () => {
+
+  const [Projects, setProjects] = useState([]);
+
+  useEffect( ()=>{
+      fetch('Projects.json')
+      .then(res => res.json())
+      .then(data => console.log(data));
+  }, [])
+
   return (
     <div className='my-20 max-w-7xl mx-auto px-10'>
         <h2 className='Projects-heading text-center text-3xl mb-10'>My Projects</h2>
-       <div className="grid sm:grid-col-1 md:grid-cols-2 lg:grid-cols-3 gap-y-5 gap-x-4">
-       <div className="project-box shadow-md px-4 pb-10 ">
-                <img className='project-img mb-2' src={landscapeOrg} alt="" />
-                <h2 className='text-2xl project-name my-4'>Home Landscaping service</h2>
-              <Link to='/' className='peoject-details-btn rounded-sm text-left'>Details</Link>
-            </div>
-       <div className="project-box shadow-md px-4 pb-10">
-                <img className='project-img' src={landscape} alt="" />
-                <h2 className='text-2xl project-name my-4'>Fruits warehouse</h2>
-                <Link to='/' className='peoject-details-btn rounded-sm text-left'>Details</Link>
-            </div>
-       <div className="project-box shadow-md px-4 pb-10">
-                <img className='project-img' src={cars} alt="" />
-                <h2 className='text-2xl project-name my-4'>Cars Instruments</h2>
-                <Link to='/' className='peoject-details-btn rounded-sm'>Details</Link>
-            </div>
+       <div className="grid grid-col-1 lg:grid-cols-2 gap-y-5 gap-x-4">
+       {
+                Projects.map(Project => <SingleProjects
+                    key={Project.id}
+                    Project={Project}
+                >
+                </SingleProjects>)
+            }
        </div>
 
     </div>

@@ -38,9 +38,9 @@ const Navbar = ({children}) => {
   {children}
   
   </div> 
-  <div className="drawer-side">
+  <div className="drawer-side text-white">
     <label htmlFor="my-drawer-3" className="drawer-overlay"></label> 
-    <ul className="menu p-4 overflow-y-auto w-80 bg-base-100">
+    <ul className="menu p-4 overflow-y-auto w-80 bg-black">
           <li><Link className='menu' to="/">Home</Link></li>
           <li><Link className='menu' to="/services">Services</Link></li>
           <li><Link className='menu' to="/projects">Projects</Link></li>
