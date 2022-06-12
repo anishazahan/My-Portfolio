@@ -11,12 +11,12 @@ const Projects = () => {
   useEffect( ()=>{
       fetch('Projects.json')
       .then(res => res.json())
-      .then(data => console.log(data));
+      .then(data =>setProjects(data));
   }, [])
 
   return (
     <div className='my-20 max-w-7xl mx-auto px-10'>
-        <h2 className='Projects-heading text-center text-3xl mb-10'>My Projects</h2>
+        <h2 className='Projects-heading text-center text-3xl mb-10'>My <span className='project-name text-4xl'> Projects</span></h2>
        <div className="grid grid-col-1 lg:grid-cols-2 gap-y-5 gap-x-4">
        {
                 Projects.map(Project => <SingleProjects
