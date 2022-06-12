@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import {FaFacebookSquare,FaLinkedin,FaSkype,FaGooglePlus } from "react-icons/fa";
 const About = () => {
   return (
-    <div className='maxWidth mx-auto grid md:grid-cols-1 lg:grid-cols-2 md:p-10 grid-cols-1 lg:my-20  gap-3 sm:px-16 sm:m-12'>
+    <div className='maxWidth mx-auto grid md:grid-cols-1 lg:grid-cols-2 md:p-10 grid-cols-1 lg:my-20  gap-3 sm:px-16 sm:m-12 xl:mx-auto'>
        
             <div className="text-section pt-20">
                 <h2 className='about-heading text-xl md:text-3xl'>  React.JS DeVeloper</h2>

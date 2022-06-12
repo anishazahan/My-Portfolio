@@ -18,7 +18,7 @@ textarea{
 }
 .form-width{
    
-    padding: 20px;
+    padding: 10px;
 }
 .contact-background{
     background-color:#ffe2a93a ;
@@ -35,10 +35,26 @@ textarea{
 
 @media (max-width:1300px) {
     .img{
-        display: none;
+        margin: auto;
     }
     .form-width {
         margin: auto;
+    }
+}
+
+@media (min-width:1300px) {
+
+    .form-width{
+        margin: auto;
+    }
+}
+@media (min-width:1200px) {
+
+    .form-width{
+       padding: 0 15px;
+    }
+    .img{
+        padding: 0 15px;
     }
 }
 

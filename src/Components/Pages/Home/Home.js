@@ -5,12 +5,14 @@ import Contact from '../Contact/Contact'
 import Projects from '../Projects/Projects'
 import Services from '../Services/Services'
 import Banner from './Banner'
+import MySkills from './MySkills'
 
 const Home = () => {
   return (
     <div>
         <Banner></Banner>
         <About></About>
+        <MySkills></MySkills>
         <Services></Services>
         <Projects></Projects>
         <Contact></Contact>

@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div className='contact-background py-12'>
         <h2 className='text-center contact-heading text-3xl my-7'>Contact me</h2>
-      <div className="grid lg:grid-cols-2 sm:grid-cols-1 max-w-7xl lg:px-17 mx-auto pb-10 gap-0">
+      <div className="grid lg:grid-cols-2 grid-cols-1 max-w-7xl lg:px-17 mx-auto pb-10 gap-0 lg:gap3">
         <div className="img rounded-sm ml-12">
           <img src={contactImg} alt="" />
         </div>
