@@ -1,16 +1,19 @@
-.projects-btn{
-    padding: 5px 10px;
-    font-size: 14px;
+.projects-btn:hover{
+   
     background-color: #87431D;
     color: bisque;
-    font-weight: 600;
-    transition: 1s;
+    
 }
-.projects-btn:hover{
+.projects-btn{
     color: #87431D;
     border: 1px solid #87431D;
     background: white;
+    font-weight: 600;
+    padding: 5px 10px;
+    font-size: 14px;
+    transition: 1s;
 }
 .projects-tittle{
     letter-spacing: 1.8px;
+    color: #87431D;
 }
