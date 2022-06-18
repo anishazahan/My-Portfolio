@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import photo from '../../../assets/img/pexels-photo-4482897.jpeg'
+import photo from '../../../assets/img/muslim-girl-using-laptop_63253-7859.webp'
 import { Link } from 'react-router-dom'
 import {FaFacebookSquare,FaLinkedin,FaSkype,FaGooglePlus } from "react-icons/fa";
 import MySkills from '../Home/MySkills';
@@ -15,14 +15,11 @@ const About = () => {
            
           <div className=" flex flex-row justify-between mt-5">
           <div className="flex flex-row">
-          <Link to ="/" className='icon shadow-lg'><FaFacebookSquare></FaFacebookSquare> </Link>
-           <Link to ="/" className='icon shadow-lg'><FaLinkedin></FaLinkedin> </Link>
-           <Link to ="/" className='icon shadow-lg'><FaSkype></FaSkype> </Link>
-           <Link to ="/" className='icon shadow-lg'><FaGooglePlus></FaGooglePlus> </Link>
-           <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <path fill="#FFD6E8" d="M33.6,23.6C22.4,38.9,-22.6,39,-33.8,23.7C-45.1,8.3,-22.5,-22.4,0,-22.4C22.5,-22.5,44.9,8.2,33.6,23.6Z" transform="translate(100 100)" />
-</svg>
-          </div>
+          <Link to ="/" className='icon shado'><FaFacebookSquare></FaFacebookSquare> </Link>
+           <Link to ="/" className='icon shado'><FaLinkedin></FaLinkedin> </Link>
+           <Link to ="/" className='icon shado'><FaSkype></FaSkype> </Link>
+           <Link to ="/" className='icon shado'><FaGooglePlus></FaGooglePlus> </Link>
+            </div>
            <div className="mr-14">
            <Link to="about" className='about-btn'>About More</Link>
          </div>

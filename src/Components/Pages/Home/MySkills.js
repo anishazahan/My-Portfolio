@@ -5,8 +5,8 @@ import skillImg from '../../../assets/img/skills.png'
 const MySkills = () => {
   return (
     <div className="bg-gray-100 pb-10">
-      <h2 className="skill-heading text-2xl">
-        My <span className="skill-letter">S</span>kills{" "}
+      <h2 className="skill-heading text-3xl">
+        My  skills
       </h2>
       <div className=" py-10 mx-auto">
         <div className="hero-content flex-col lg:flex-row mx-auto">

@@ -21,7 +21,7 @@ const Banner = () => {
              target='_blank' rel="noreferrer" >See Resume</a>
       </div>
     <div className="img flex flex-1">
-    <img className='img1 shadow ' src={img} alt="" />
+    <img className='img1 ' src={img} alt="" />
     <img className='img2' src={img2} alt="" />
     </div>
     
