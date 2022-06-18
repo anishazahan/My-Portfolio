@@ -2,8 +2,8 @@
     max-width: 1200px;
 }
 .about-heading{
-    letter-spacing:1px;
-    color:#41D99F;
+    
+    letter-spacing: 1.3px;
     border-bottom: 2px solid #ddd;
     display: inline;
     padding-right: 20px;
@@ -11,6 +11,7 @@
     padding-bottom: 5px;
     margin-bottom: 20px;
     margin-top: -30px;
+    font-weight: 600;
 
    
 }
@@ -28,8 +29,8 @@
     width: auto;
     height: 450px;
     border-radius: 200px 0 10px 0;
-    background-color: #e8c57ee6;
-    padding-left: 50px;
+    background-color: #41d99f84;
+    padding-left: 30px;
     margin: auto;
 }
 .icon{
@@ -47,18 +48,21 @@
 }
 .about-btn{
     padding: 10px 15px;
-    background-color:#41D99F;
-    color: bisque;
+    border: 2px solid black;
+    color: black;
     border-radius: 2px;
     transition: 1s;
+    font-weight: 500;
+    font-size: 14px;
     
 
 }
 .about-btn:hover{
-    color:#41D99F;
+    color:black;
+    background-color:#41D99F;
     border-radius: 2px;
-    background-color:#ffe2a9e6;
-    
+  
+ 
 
 }
 
