@@ -1,15 +1,10 @@
 .Projects-heading{
-   
     letter-spacing: 1.5px;
+   font-weight: 700;
+  
 }
-.project-name{
-    color:#41D99F;
-    letter-spacing: 1.5px;
-}
-.projects-box {
-    border: 1px solid#41D99F;
-    background-color:#ffe2a93a ;
-}
+
+
 .project-img{
     width: 100%;
     height: 200px;
