@@ -7,7 +7,7 @@ const ProjectsDetails = () => {
   return (
     <div>
 
-    <h2>Welcome to details {projectID}</h2>
+    <h2 className='mt-30'>Welcome to details {projectID}</h2>
 
 
     </div>

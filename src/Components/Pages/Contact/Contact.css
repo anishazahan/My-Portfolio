@@ -1,60 +1,52 @@
+.contact-background{
+    background-image: linear-gradient( to right,rgba(0,0,0,0.5),rgba(0,0,0,0.7)) ,url("https://cdn.pixabay.com/photo/2016/06/25/12/52/laptop-1478822_960_720.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
 .contact-heading{
-   
+   font-weight: 700;
     letter-spacing: 1.5px;
+    margin-bottom: 5%;
+    color: #ffffff;
 }
 input{
     border: 2px solid#41D99F;
     padding: 8px 15px;
-    margin: 5px;
     width: 100%;
+    margin: 5px 0;
+    background: #5ab69373;
+    color: black;
+
+   
 }
 textarea{
     border: 1px solid#41D99F;
     padding: 8px 15px;
-    margin: 5px;
-    width: 100%;
-    margin-bottom: 15px;
+    margin: 5px 0;
+   background: #5ab69373;
 
 }
 .form-width{
-   
-    padding: 10px;
+   max-width: 50%;
+    padding: 7px;
+    padding-bottom: 10%;
 }
-.contact-background{
-    background-color:#ffe2a93a ;
-}
-.img{
-    /* background-color:#41D99F; */
-    width: 80%;
-    height: auto;
-}
+
+
 .submit{
     background-color:#41D99F;
-    color: #ffe2a9e6;
+    color: black;
+    font-weight: 700;
+    transition: 1s;
+}
+.submit:hover{
+    background-color:#ffffff;
+    color: black;
+    font-weight: 700;
 }
 
-@media (max-width:1300px) {
-    .img{
-        margin: auto;
-    }
-    .form-width {
-        margin: auto;
-    }
-}
 
-@media (min-width:1300px) {
-
-    .form-width{
-        margin: auto;
-    }
-}
-@media (min-width:1200px) {
-
-    .form-width{
-       padding: 0 15px;
-    }
-    .img{
-        padding: 0 15px;
-    }
-}
 
