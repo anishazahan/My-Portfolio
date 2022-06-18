@@ -6,7 +6,7 @@ const Blogs = () => {
     <div>
 
 
-<h2 className='text-center blog-heading'>The new blog is coming soon</h2>
+<h2 className='text-center blog-heading text-4xl'>The new blog is coming soon!!!</h2>
 
     </div>
   )

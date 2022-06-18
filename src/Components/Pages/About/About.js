@@ -11,7 +11,7 @@ const About = () => {
        
        <div className="text-section pt-20">
            <h2 className='about-heading text-xl md:text-3xl'>  React.JS DeVeloper</h2>
-           <p className='mt-4 mr-3 py-7'>I am fronted React Js Developer.I have 2 years work experience.I have fresh knowledge of html,css,bootstrap,tailwind,javascript ES6(comfortable),react.js and familier for express.Js,node Js,Mongodb and other tecnology.You will get 100% full support of work assured until you are fully satisfied.I have the ability to apply professional and technical knowledge in a challenging environment. Which helps me to improve my skills and experience, to develop efficiency and to constantly learn new things for myself.</p>
+           <p className='mt-4 mr-3 py-7 text-justify'>I am fronted React Js Developer.I have 2 years work experience.I have fresh knowledgeof html,css,bootstrap,tailwind,javascript ES6(comfortable),react.js and familier for express.Js,node Js,Mongodb and other tecnology.You will get 100% full support of work assured until you are fully satisfied.I have the ability to apply professional and technical knowledge in a challenging environment. Which helps me to improve my skills and experience, to develop efficiency and to constantly learn new things for myself.</p>
            
           <div className=" flex flex-row justify-between mt-5">
           <div className="flex flex-row">
@@ -19,6 +19,9 @@ const About = () => {
            <Link to ="/" className='icon shadow-lg'><FaLinkedin></FaLinkedin> </Link>
            <Link to ="/" className='icon shadow-lg'><FaSkype></FaSkype> </Link>
            <Link to ="/" className='icon shadow-lg'><FaGooglePlus></FaGooglePlus> </Link>
+           <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <path fill="#FFD6E8" d="M33.6,23.6C22.4,38.9,-22.6,39,-33.8,23.7C-45.1,8.3,-22.5,-22.4,0,-22.4C22.5,-22.5,44.9,8.2,33.6,23.6Z" transform="translate(100 100)" />
+</svg>
           </div>
            <div className="mr-14">
            <Link to="about" className='about-btn'>About More</Link>
@@ -32,6 +35,8 @@ const About = () => {
    </div>
   
 </div>
+
+
 
 <MySkills></MySkills>
     </div>

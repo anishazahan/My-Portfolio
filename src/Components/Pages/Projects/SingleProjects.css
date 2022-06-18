@@ -1,12 +1,12 @@
 .projects-btn:hover{
    
-    background-color: #87431D;
+    background-color:#41D99F;
     color: bisque;
     
 }
 .projects-btn{
-    color: #87431D;
-    border: 1px solid #87431D;
+    color:#41D99F;
+    border: 1px solid#41D99F;
     background: white;
     font-weight: 600;
     padding: 5px 10px;
@@ -15,5 +15,5 @@
 }
 .projects-tittle{
     letter-spacing: 1.8px;
-    color: #87431D;
+    color:#41D99F;
 }

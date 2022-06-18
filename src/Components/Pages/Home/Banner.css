@@ -1,13 +1,19 @@
-.banner {
-/* 
-    background: url('https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2018/11/dark-wallpapers.jpg?q=50&fit=contain&w=1500&h=750&dpr=1.5'); */
-    background: linear-gradient( to right,rgba(0, 0, 0, 0.281) 40%,rgba(0, 0, 0, 0.087)) ,url("https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2018/11/dark-wallpapers.jpg?q=50&fit=contain&w=1500&h=750&dpr=1.5");
+ .banner {
+
+    /* background: url('https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2018/11/dark-wallpapers.jpg?q=50&fit=contain&w=1500&h=750&dpr=1.5');  */
+ /* background: linear-gradient( to right,rgba(0, 0, 0, 0.281) 40%,rgba(0, 0, 0, 0.087)) ,url("https://i.ibb.co/wgRGqH5/Brown-Grey-Creative-Modern-Online-Portfolio.png"); */
 
     background-size: cover;
     width: 100%;
     height: 100vh;
     background-repeat: no-repeat;
-}
+} 
+ 
+
+
+
+
+
 
 .flex-item {
    margin-top: 5%;
@@ -15,27 +21,28 @@
 }
 
 .baner-heading {
-    color: #ffe2a9e6;
-    font-family: 'Oleo Script', cursive;
+    color: black;
     padding-top: 12%;
     margin-bottom: 10px;
+    font-weight: 700;
 }
 
 .banner-heading2 {
-    color: #ffe2a9e6;
-    font-family: 'Oleo Script', cursive;
+    color: black;
     margin-bottom: 15px;
+    font-weight: 700;
 }
 
-/* .name {
-    color: #44000D;
-} */
+.name {
+    color: #41D99F;
+    font-weight: 900;
+}
 
 .banner-text {
-    color: #f1e4c8;
+    color: black;
     margin-bottom: 5%;
     font-weight: 400;
-    letter-spacing: 1.5px;
+    
     font-size: 18px;
    
 }
@@ -45,22 +52,22 @@
     padding: 16px 20px;
     color: black;
     border-radius: 2px;
-    border: 2px solid #f1c05de6;
-    background-color: #f1c05de6;
+    border: 2px solid #41D99F;
+    background-color: #41D99F;
 }
 
 .banner-btn2 {
     font-weight: bold;
     padding: 15px 20px;
-    color: #f1c05de6;
+    color: #41D99F;
     border-radius: 2px;
-    border: 2px solid #f1c05de6;
+    border: 2px solid #41D99F;
     background-color: rgba(0, 0, 0, 0.575);
 }
 
 .banner-btn1:hover {
-    border: 2px solid #f1c05de6;
-    color: #f1c05de6;
+    border: 2px solid #41D99F;
+    color: #41D99F;
     background-color: rgba(0, 0, 0, 0.286);
     transition: 1s;
 }
@@ -68,7 +75,7 @@
 .banner-btn2:hover {
 
     color: black;
-    background-color: #f1c05de6;
+    background-color: #41D99F;
     transition: 1s;
 }
 .img{

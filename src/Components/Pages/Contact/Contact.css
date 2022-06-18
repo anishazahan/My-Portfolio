@@ -3,13 +3,13 @@
     letter-spacing: 1.5px;
 }
 input{
-    border: 2px solid #87431D;
+    border: 2px solid#41D99F;
     padding: 8px 15px;
     margin: 5px;
     width: 100%;
 }
 textarea{
-    border: 1px solid #87431D;
+    border: 1px solid#41D99F;
     padding: 8px 15px;
     margin: 5px;
     width: 100%;
@@ -24,12 +24,12 @@ textarea{
     background-color:#ffe2a93a ;
 }
 .img{
-    background-color: #87431D;
+    /* background-color:#41D99F; */
     width: 80%;
     height: auto;
 }
 .submit{
-    background-color: #87431D;
+    background-color:#41D99F;
     color: #ffe2a9e6;
 }
 

@@ -14,7 +14,7 @@
     content: "";
     width: 30%;
     height: 0.2rem;
-    background: #87431D;
+    background:#41D99F;
     bottom: -4%;
     margin: auto;
     left: 35%;
@@ -34,6 +34,7 @@
   
 }
 .service-name{
-    color: #87431D;
+    color: black;
     margin: 10px 0;
+    letter-spacing: 1.5px;
 }
