@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './Banner.css'
-import resume from './Anisha _Zahan_ resume.pdf'
+import resume from './Resume.pdf'
 import img from '../../../assets/img/muslim-girl-removebg.png'
 import img2 from '../../../assets/img/banner2.webp'
 
