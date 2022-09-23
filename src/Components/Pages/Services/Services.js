@@ -33,7 +33,7 @@ const Services = () => {
         <div className="box shado px-4 pb-5 text-center">
                 <img className='img-design' src={psdToHtml} alt="" />
                 <h2 className='text-2xl service-name'>PSD To HTML</h2>
-                <p className='service-text'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In possimus eligendi cum laborum blanditiis nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, ut. </p>
+                <p className='service-text'> I will create Your Website PSD to Html,that is raw code of html and css,and that is faster for roaw code. </p>
             </div>
 
         <div className="box shado px-4 pb-5 text-center">
@@ -44,12 +44,12 @@ const Services = () => {
             <div className="box shado px-4 pb-5 text-center">
                 <img className='img-design' src={userInterface} alt="" />
                 <h2 className='text-2xl service-name'>UI UX Design</h2>
-                <p className='service-text'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In possimus eligendi cum laborum blanditiis nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, ut. </p>
+                <p className='service-text'>I will create Your website beautifull and eye catching and color combination is good. </p>
             </div>
             <div className="box shado px-4 pb-5 text-center important-service">
                 <img className='img-design' src={reactJs} alt="" />
                 <h2 className='text-2xl service-name'>React Application</h2>
-                <p className='service-text'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In possimus eligendi cum laborum blanditiis nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, ut. </p>
+                <p className='service-text'>I will create your website with React.Js.THat is componant base Library,for this reason code minimize and faster.I will use,React Router,Custom Hook,UseHook,State,Context API,Usememo,Usereducer and so on. </p>
             </div>
         </div>
     </div>

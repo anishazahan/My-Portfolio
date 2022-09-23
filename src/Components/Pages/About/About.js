@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import photo from '../../../assets/img/muslim-girl-using-laptop_63253-7859.webp'
+import photo from '../../../assets/img/muslim-girl-using-laptop_63253-7859.ee1f38e272b8f4be1ee2.webp'
 import { Link } from 'react-router-dom'
 import {FaFacebookSquare,FaLinkedin,FaSkype,FaGooglePlus } from "react-icons/fa";
 import MySkills from '../Home/MySkills';
