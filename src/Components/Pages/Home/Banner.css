@@ -43,12 +43,11 @@
  .img1 {
 
      position: absolute;
-     width: 230;
-     height: 300px;
+     /* width: 230; */
+     /* height: 300px; */
      margin-left: 4%;
-     border-radius: 2px;
-    box-shadow: 4px 4px 8px #cbcbcb,4px -4px 8px #ffffff;
-     background-color: white;
+     margin-top: 3%;
+   
      z-index: 245;
  }
 
@@ -121,10 +120,11 @@
      }
 
      */
-     
-     .banner {
-         min-height: 70vh;
+     .banner{
+        min-height: 60vh;
      }
+     
+     
  }
 
 
