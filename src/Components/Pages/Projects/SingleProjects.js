@@ -7,8 +7,8 @@ const SingleProjects = ({Project}) => {
 
   const Navigate = useNavigate();
 
-  const navigateToProjectDetail = id =>{
-    Navigate(`/projects/${id}`);
+  const navigateToProjectDetail = name =>{
+    Navigate(`/projects/${name}`);
 }
 
    
@@ -19,7 +19,7 @@ const SingleProjects = ({Project}) => {
         <h2 className='text-2xl my-10 projects-tittle'>{name}</h2>
         <div className="flex flex-row justify-between">
             <Link className='projects-btn' to='/'>Live Site</Link>
-            <button className='projects-btn' onClick={() => navigateToProjectDetail(id)}>View Details</button>
+            <button className='projects-btn' onClick={() => navigateToProjectDetail(name)}>View Details</button>
         </div>
 
 

@@ -3,11 +3,11 @@ import { useParams } from 'react-router-dom'
 
 const ProjectsDetails = () => {
 
-    const {projectID} = useParams();
+    const {projectName} = useParams();
   return (
     <div>
 
-    <h2 className='mt-10 mb-72 text-center text-2xl'>Welcome to details {projectID}</h2>
+    <h2 className='mt-10 mb-72 text-center text-2xl'>Welcome to details {projectName}</h2>
 
 
     </div>

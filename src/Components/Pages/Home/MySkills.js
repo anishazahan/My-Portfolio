@@ -25,6 +25,8 @@ const MySkills = () => {
 
             <h1 className="text-xl font-bold skill-name mt-4">Familer</h1>
             <button className="skill-btn p-2">Node.JS</button>
+            <button className="skill-btn p-2">Redux</button>
+            <button className="skill-btn p-2">Typescript</button>
             <button className="skill-btn p-2">EXpress.Js</button>
             <button className="skill-btn p-2">Firebase Authentication</button>
             <button className="skill-btn p-2">MongoDB</button><br/>
@@ -39,6 +41,7 @@ const MySkills = () => {
             <button className="skill-btn p-2">Figma</button>
             <button className="skill-btn p-2">PhotoShop</button>
             <button className="skill-btn p-2">Postman</button>
+            <button className="skill-btn p-2">Vercel</button>
 
             
            

@@ -10,8 +10,8 @@ import img2 from '../../../assets/img/banner2.webp'
 const Banner = () => {
   return (
     <div className='banner max-width mx-auto'>
-     <div className="flex flex-col lg:flex-row flex-item flex-1 px-20 w-full justify-center mt-16">
-     <div className="flex-item">
+     <div className="flex flex-col lg:flex-row flex-item flex-1 px-20 w-full justify-center mt-10">
+     <div className="flex-item order-2 lg:order-1">
             <h1 className='baner-heading text-5xl lg:text-7xl'>Hey !! </h1>
             <h1 className='lg:text-6xl text-5xl banner-heading2'>I'm <span className='name '>Anisha Zahan</span> </h1>
             
@@ -20,9 +20,9 @@ const Banner = () => {
             <a className='banner-btn2 ml-4' href={resume}
              target='_blank' rel="noreferrer" >See Resume</a>
       </div>
-    <div className="img flex flex-1">
-    <img className='img1 ' src={img} alt="" />
-    <img className='img2' src={img2} alt="" />
+      <div className="img flex flex-1 justify-center items-center order-1 lg:order-2 ">
+    <img className='img1 hidden lg:block ' src={img} alt="" />
+    <img className='img2 hidden xxl:block' src={img2} alt="" />
     </div>
     
      </div>
