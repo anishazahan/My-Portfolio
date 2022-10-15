@@ -30,10 +30,11 @@
     min-height: 250px;
     transition: 1s;
     /* box-shadow: 4px 4px 8px #cbcbcb,4px -4px 8px #ffffff; */
-    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    /* background: linear-gradient(145deg, #e2e8ec, #ffffff); */
+    background: rgba(0, 0, 0, 0.423);
 }
 .box:hover{
-    background: #41D99F;
+    /* background: #41D99F; */
 }
 .img-design{
     width: auto;

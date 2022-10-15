@@ -7,7 +7,8 @@ const Navbar = ({children}) => {
   return (
 
     // <span className='logo-fast-letter'>A</span> nisha<span className='ml-2'> Zahan</span>
-    <div className='max-width mx-auto'>
+   <div className="bg-transparent">
+     <div className='max-width mx-auto'>
       <div className="drawer drawer-end">
   <input id="my-drawer-3" type="checkbox" className="drawer-toggle" /> 
   <div className="drawer-content flex flex-col ">
@@ -57,6 +58,7 @@ const Navbar = ({children}) => {
 </div>
 
     </div>
+   </div>
   )
 }
 
