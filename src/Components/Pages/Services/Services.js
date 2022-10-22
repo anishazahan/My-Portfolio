@@ -13,11 +13,12 @@ const Services = () => {
 
 
   return (
-    <div className='px-20 mb-14 max-w-7xl mx-auto mt-10 mb-20 bg-black'>
+   
+        <div className='px-20 mb-14 max-w-7xl mx-auto mt-10 mb-20 '>
         <div className="service text-center mb-10">
-        <h2 className=' servicing-heading text-3xl p-7'>My  Services</h2>
+        <h2 className=' servicing-heading text-3xl p-7 text-white'>My  Services</h2>
         </div>
-        <p className=' text-center mb-16'>You will get 100% full service of work assured until you are fully satisfied</p>
+        <p className=' text-center mb-16 text-gray-300'>You will get 100% full service of work assured until you are fully satisfied</p>
 
         <div className="grid sm:grid-col-1 md:grid-cols-2 lg:grid-cols-3 gap-y-5 gap-x-4">
         <div className="box border border-gray-900 px-4 pb-5 text-center">
@@ -27,32 +28,33 @@ const Services = () => {
             </div>
         <div className="box border border-gray-900 px-4 pb-5 text-center">
                 <img className='img-design' src={webDesign} alt="" />
-                <h2 className='text-2xl service-name'>Web design</h2>
-                <p className='service-text'>I am working with web design in the last 2 years. Now I have so much experience and I have completed so much design. I have so many clients to work with web design. </p>
+                <h2 className='text-2xl service-name'>UX Design</h2>
+                <p className='service-text'>Have much experience for user interface design andI will create Your beautiful, eye catching and color combination better website. </p>
             </div>
         <div className="box border border-gray-900 px-4 pb-5 text-center">
                 <img className='img-design' src={psdToHtml} alt="" />
                 <h2 className='text-2xl service-name'>PSD To HTML</h2>
-                <p className='service-text'> I will create Your Website PSD to Html,that is raw code of html and css,and that is faster for roaw code. </p>
+                <p className='service-text'> I will create Your Website PSD to Html,that is raw code of html and css,and that is faster for raw code. </p>
             </div>
 
         <div className="box border border-gray-900 px-4 pb-5 text-center">
                 <img className='img-design' src={wevDev} alt="" />
                 <h2 className='text-2xl service-name'>Web development</h2>
-                <p className='service-text'>I have so much experience in Web Development. Development means Full Website creation. I know and I have so much experience in web site development </p>
+                <p className='service-text'>I have so much experience in Web Development using node js,express.js,mongoose.I will develop full stack web App for your requirement.</p>
             </div>
             <div className="box border border-gray-900 px-4 pb-5 text-center">
                 <img className='img-design' src={userInterface} alt="" />
-                <h2 className='text-2xl service-name'>UI UX Design</h2>
-                <p className='service-text'>I will create Your website beautifull and eye catching and color combination is good. </p>
+                <h2 className='text-2xl service-name'> SEO Friendly</h2>
+                <p className='service-text'>I will create your application seo friendly that is faster load and productive using Next.Js react framework. </p>
             </div>
             <div className="box border border-gray-900 px-4 pb-5 text-center important-service">
                 <img className='img-design' src={reactJs} alt="" />
                 <h2 className='text-2xl service-name'>React Application</h2>
-                <p className='service-text'>I will create your website with React.Js.THat is componant base Library,for this reason code minimize and faster.I will use,React Router,Custom Hook,UseHook,State,Context API,Usememo,Usereducer and so on. </p>
+                <p className='service-text'>I will create your website with React.Js.THat is component base Library,for this reason code minimize and faster.I will use,React Router,Custom Hook,UseHook,State,Context API,Usememo,Usereducer and so on. </p>
             </div>
         </div>
     </div>
+    
   )
 }
 

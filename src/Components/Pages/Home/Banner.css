@@ -1,12 +1,13 @@
  .banner {
-     background-size: cover;
+     /* background-size: cover;
      background: url('../../../assets/banner1.jpg');
-     background-position: center;
+     background-position: center; */
      width: 100%;
      top: 0;
      
-     height: 90vh;
+     height: 76vh;
      background-repeat: no-repeat;
+     margin: 0;
  }
 
  .max-width {
@@ -14,14 +15,14 @@
  }
 
  .baner-heading {
-     color: black;
+    color: aliceblue;
      padding-top: 12%;
      margin-bottom: 10px;
      font-weight: 700;
  }
 
  .banner-heading2 {
-     color: black;
+   
      margin-bottom: 15px;
      font-weight: 700;
  }
@@ -32,7 +33,7 @@
  }
 
  .banner-text {
-     color: black;
+     color: wheat;
      margin-bottom: 7%;
      font-weight: 400;
      font-size: 18px;
@@ -44,18 +45,18 @@
 }
  
 
- .img1 {
+ /* .img1 {
 
      position: absolute;
-     /* width: 230; */
-     /* height: 300px; */
+     width: 230;
+     height: 300px;
      margin-left: 4%;
      margin-top: 3%;
    
      z-index: 245;
- }
+ } */
 
- .img2 {
+ /* .img2 {
      position: absolute;
      margin-left: 30%;
      width: auto;
@@ -63,7 +64,7 @@
      margin-top: 25%;
      margin-right: 70px;
      z-index: 1;
- }
+ } */
 
  .banner-btn1 {
      font-weight: bold;

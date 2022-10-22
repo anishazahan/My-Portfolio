@@ -1,10 +1,16 @@
 
+.service-background{
+    background-color: #1D1D1D;
+}
+
 .servicing-heading{
    display: inline;
     position: relative;
     border-bottom: 0.12rem solid black;
     padding-bottom: 0.7rem;
     font-weight: 700;
+    color: aliceblue!important;
+   
    
    
 }
@@ -21,21 +27,18 @@
  
    
 }
-.shado{
-   
-}
+
 
 .box{
    
     min-height: 250px;
     transition: 1s;
-    /* box-shadow: 4px 4px 8px #cbcbcb,4px -4px 8px #ffffff; */
-    /* background: linear-gradient(145deg, #e2e8ec, #ffffff); */
-    background: rgba(0, 0, 0, 0.423);
+    background: #212121;
+    color: rgba(240, 248, 255, 0.95);
 }
-.box:hover{
-    /* background: #41D99F; */
-}
+
+
+
 .img-design{
     width: auto;
     height: 100px;
@@ -43,11 +46,9 @@
     margin: 5% auto;
   
 }
-.important-service{
-    background: #41D99F;
-}
+
 .service-name{
-    color: black;
+   
     margin: 10px 0;
     letter-spacing: 1.5px;
     font-weight: 700;

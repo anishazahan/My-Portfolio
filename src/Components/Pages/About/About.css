@@ -1,3 +1,9 @@
+.about-background{
+   background-color: #1D1D1D;
+   margin: 0;
+}
+
+
 .maxWidth{
     max-width: 1200px;
 }
@@ -19,6 +25,7 @@
     border-bottom: 2px solid #29ba82;
     padding-bottom: 5px;
     margin-bottom: 20px;
+    color: aliceblue;
  
 }
 .about-img{
@@ -26,7 +33,7 @@
     height: 450px;
     border-radius: 200px 0 200px 0;
     background-color: #41d99f84;
-    box-shadow: 4px 4px 8px #cbcbcb,8px -10px 12px #ffffff;
+    box-shadow: 4px 4px 8px black,8px -10px 12px black;
     padding-left: 15px;
     margin: auto;
     padding-right: 15px;
@@ -37,17 +44,18 @@
     color:#29c388;
     padding: 10px;
     transition: 1s;
+    background-color: #1d1d1dcd;
 }
 .shado{
-    box-shadow: 4px 4px 8px #cbcbcb,4px -4px 8px #ffffff;
+    box-shadow: 4px 4px 8px black,4px -4px 8px black;
 }
 .icon:hover{
     margin-top: -5px;
 }
 .about-btn{
     padding: 10px 15px;
-    border: 2px solid black;
-    color: black;
+    border: 2px solid #29c388 ;
+    color: #29c388;
     border-radius: 2px;
     transition: 1s;
     font-weight: 500;
