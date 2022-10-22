@@ -47,7 +47,7 @@
 
  .banner-btn1 {
      font-weight: bold;
-     padding: 16px 20px;
+     padding: 10px 20px;
      color: black;
      border-radius: 2px;
      border: 2px solid #41D99F;
@@ -56,8 +56,8 @@
 
  .banner-btn2 {
      font-weight: bold;
-     padding: 15px 20px;
-     color: #41D99F;
+     padding: 10px 20px;
+     color: black;
      border-radius: 2px;
      border: 2px solid #41D99F;
      background-color: white;

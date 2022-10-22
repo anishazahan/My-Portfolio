@@ -31,7 +31,7 @@ const Projects = () => {
                 </SingleProjects>)
             }
        </div> */} 
-       <div className="grid grid-cols-2 lg:grid-cols-3 px-5 lg:px-16 gap-3 ">
+       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-5 lg:px-16 gap-3 ">
         <div className="project-box shadow-md">
           <div className="h-54">
             <img className='h-56' src={img1} alt="" />
