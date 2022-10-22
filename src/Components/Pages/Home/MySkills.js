@@ -4,8 +4,8 @@ import skillImg from '../../../assets/img/skills.png'
 
 const MySkills = () => {
   return (
-    <div className="bg-gray-100 pb-10">
-      <h2 className="skill-heading text-3xl">
+    <div className="skills-background pb-10">
+      <h2 className="skill-heading text-3xl text-gray-200 pt-10">
         My  skills
       </h2>
       <div className=" py-10 mx-auto">
@@ -14,7 +14,7 @@ const MySkills = () => {
             src={skillImg}
            alt=""/>
           <div>
-            <h1 className="text-xl font-bold skill-name mt-[-8] ">Skils</h1>
+            <h1 className="text-xl font-bold skill-name mt-[-8] text-gray-200 ">Skills</h1>
             <button className="skill-btn p-2">HTML</button>
             <button className="skill-btn p-2">CSS</button>
             <button className="skill-btn p-2">BOOTSTRAP</button>
@@ -23,17 +23,19 @@ const MySkills = () => {
             <button className="skill-btn p-2">JAVASCRIPT</button>
             <button className="skill-btn p-2">REACT.JS</button>
 
-            <h1 className="text-xl font-bold skill-name mt-4">Familer</h1>
+            <h1 className="text-xl font-bold skill-name mt-4 text-gray-200">Familiar</h1>
             <button className="skill-btn p-2">Node.JS</button>
             <button className="skill-btn p-2">Redux</button>
             <button className="skill-btn p-2">Typescript</button>
-            <button className="skill-btn p-2">EXpress.Js</button>
+            <button className="skill-btn p-2">Express.Js</button>
             <button className="skill-btn p-2">Firebase Authentication</button>
             <button className="skill-btn p-2">MongoDB</button><br/>
+            <button className="skill-btn p-2">Mongoose</button>
+            <button className="skill-btn p-2">Next Js</button>
             
-            <h1 className="text-xl font-bold skill-name mt-4">Deploy and Tools</h1>
+            <h1 className="text-xl font-bold skill-name mt-4 text-gray-200">Deploy and Tools</h1>
             <button className="skill-btn p-2">Git</button>
-            <button className="skill-btn p-2">GitHUB</button>
+            <button className="skill-btn p-2">GitHub</button>
             <button className="skill-btn p-2">Netlify</button>
             <button className="skill-btn p-2">Firebase</button>
             <button className="skill-btn p-2">Heroku</button><br/>

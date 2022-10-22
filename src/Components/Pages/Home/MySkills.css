@@ -1,3 +1,7 @@
+.skills-background{
+    background-color: #212121;
+}
+
 .skill-heading{
     text-align: center;
     font-weight: 900;
@@ -7,12 +11,14 @@
 
 .skill-btn{
   
-    padding: 5x 15px;
+    padding: 5x 20px;
     margin: 5px;
-    font-weight: 600;
+    color: rgba(220, 220, 220, 0.866);
+    font-weight: 500;
     font-size: 14px;
-    border-radius: 50px;
+    border-radius: 0;
+    /* border-radius: 50px; */
     border-radius: 10px;
-    background: linear-gradient(145deg, #e2e8ec, #ffffff);
-    box-shadow: 4px 4px 8px #cbcbcb,4px -4px 8px #ffffff;
+    background: linear-gradient(145deg, black, black);
+    /* box-shadow: 4px 4px 8px black,4px -4px 8px black; */
 }
