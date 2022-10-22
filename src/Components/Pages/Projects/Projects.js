@@ -50,7 +50,7 @@ const Projects = () => {
           <h1 className='text-[18px] font-bold mt-4 mb-2 px-4 project-heading'>Home Lanscaping Service</h1>
           <div className="flex flex-col space-y-1 pb-5 px-4">
             <a className='text-sm link text-primary' href="https://home-landscaper-services.firebaseapp.com/home">Live Link</a>
-            <a className='text-sm link' href="https://github.com/anishazahan/Landscaping-Service">Client Link</a>
+            <a className='text-sm link' href="https://github.com/anishazahan/Landscaping-Service">Client code Link</a>
           </div>
         </div>
         <div className="project-box shadow-md">
