@@ -1,10 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import {FaFacebookSquare,FaLinkedin,FaSkype,FaGooglePlus } from "react-icons/fa";
+import ScrollToTop from "react-scroll-to-top";
 
 const FooterSection = () => {
   return (
     <footer className="footer p-10 bg-black text-base-content px-20 text-gray-400">
+      <ScrollToTop smooth  top='1000'/>
     <div>
       <span className="footer-title">Services</span> 
       <Link to='services' className="link link-hover">Web Development</Link> 
@@ -26,7 +28,9 @@ const FooterSection = () => {
                 <Link to ="/" className='icon shadow-lg'><FaLinkedin></FaLinkedin> </Link>
                 <Link to ="/" className='icon shadow-lg'><FaSkype></FaSkype> </Link>
                 <Link to ="/" className='icon shadow-lg'><FaGooglePlus></FaGooglePlus> </Link>
+                
       </div>
+      <h2 className='text-center'>Copyright By Anisha Zahan  {(new Date().getFullYear())}</h2>
     </div>
   </footer>
   )

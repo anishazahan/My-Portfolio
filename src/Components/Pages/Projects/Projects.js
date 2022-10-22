@@ -59,7 +59,7 @@ const Projects = () => {
           </div>
           <h1 className='text-[18px] font-bold mt-4 mb-2 px-4 project-heading'>Cryto Cafe</h1>
           <div className="flex flex-col space-y-1 pb-5 px-4">
-            <a className='text-sm link text-secondary' href="https://lambent-quokka-79e933.netlify.app/coins">Live Link</a>
+            <a className='text-sm link text-secondary' href="https://crypto-cafe-delta.vercel.app/coins">Live Link</a>
             <a className='text-sm link' href="https://github.com/anishazahan/Crypto-Cafe-Website">Client Code Link</a>
           </div>
         </div>
@@ -69,8 +69,8 @@ const Projects = () => {
           </div>
           <h1 className='text-[18px] font-bold mt-4 mb-2 px-4 project-heading'>Watch Collection</h1>
           <div className="flex flex-col space-y-1 pb-5 px-4">
-            <a className='text-sm link text-secondary' href="https://lambent-quokka-79e933.netlify.app/coins">Live Link</a>
-            <a className='text-sm link' href="https://github.com/anishazahan/Smart-Watch-Collection">Client Link</a>
+            <a className='text-sm link text-secondary' href="https://smart-watch-collection.vercel.app/">Live Link</a>
+            <a className='text-sm link' href="https://github.com/anishazahan/Watch-Collection-With-React-Router">Client code Link</a>
           </div>
         </div>
         <div className="project-box shadow-md">
@@ -89,7 +89,7 @@ const Projects = () => {
           </div>
           <h1 className='text-[18px] font-bold mt-4 mb-2 px-4 project-heading'>Best Choice</h1>
           <div className="flex flex-col space-y-1 pb-5 px-4">
-            <a className='text-sm link text-secondary' href="https://best-choice-a3d8e.web.app/">Live Link</a>
+            <a className='text-sm link text-secondary' href="https://best-choice-a3d8e.web.app/products">Live Link</a>
             <a className='text-sm link' href="https://github.com/anishazahan/Best-Choice">Client Code Link</a>
           </div>
         </div>
