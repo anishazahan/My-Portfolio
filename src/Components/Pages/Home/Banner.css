@@ -5,7 +5,7 @@
      width: 100%;
      top: 0;
      
-     height: 76vh;
+     height: 78vh;
      background-repeat: no-repeat;
      margin: 0;
  }
@@ -44,27 +44,6 @@
     position: relative;
 }
  
-
- /* .img1 {
-
-     position: absolute;
-     width: 230;
-     height: 300px;
-     margin-left: 4%;
-     margin-top: 3%;
-   
-     z-index: 245;
- } */
-
- /* .img2 {
-     position: absolute;
-     margin-left: 30%;
-     width: auto;
-     height: 300px;
-     margin-top: 25%;
-     margin-right: 70px;
-     z-index: 1;
- } */
 
  .banner-btn1 {
      font-weight: bold;

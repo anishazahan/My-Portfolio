@@ -1,5 +1,5 @@
 .contact-background{
-    background-image: linear-gradient( to right,rgba(0,0,0,0.5),rgba(0,0,0,0.7)) ,url("https://cdn.pixabay.com/photo/2016/06/25/12/52/laptop-1478822_960_720.jpg");
+    background-image: linear-gradient( to right,rgba(0, 0, 0, 0.758),rgba(0, 0, 0, 0.798)) ,url("https://cdn.pixabay.com/photo/2016/06/25/12/52/laptop-1478822_960_720.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
