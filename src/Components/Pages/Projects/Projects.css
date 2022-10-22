@@ -1,6 +1,13 @@
-.Projects-heading{
+.project-box{
+    background: #212121;
+  
+}
+
+
+.project-heading{
     letter-spacing: 1.5px;
    font-weight: 700;
+   color: aliceblue;
   
 }
 
