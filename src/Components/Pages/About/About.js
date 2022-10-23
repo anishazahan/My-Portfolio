@@ -20,7 +20,7 @@ const About = () => {
            <Link to ="/" className='icon shado'><FaSkype></FaSkype> </Link>
            <Link to ="/" className='icon shado'><FaGooglePlus></FaGooglePlus> </Link>
             </div>
-           <div className="mr-14 mt-5 md:mt-0">
+           <div className="mr-14 mt-10 md:mt-0">
            <Link to="about" className='about-btn'>About More</Link>
          </div>
           </div>

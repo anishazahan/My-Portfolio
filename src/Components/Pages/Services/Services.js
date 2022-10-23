@@ -14,9 +14,9 @@ const Services = () => {
 
   return (
    
-        <div className='px-20 mb-14 max-w-7xl mx-auto mt-10 mb-20 '>
+        <div className=' px-3 md:px-10 lg:px-20 mb-14 max-w-7xl mx-auto mt-10 mb-20 '>
         <div className="service text-center mb-10">
-        <h2 className=' servicing-heading text-3xl p-7 text-white'>My  Services</h2>
+        <h2 className=' servicing-heading text-3xl md:p-7 text-white'>My  Services</h2>
         </div>
         <p className=' text-center mb-16 text-gray-300'>You will get 100% full service of work assured until you are fully satisfied</p>
 
