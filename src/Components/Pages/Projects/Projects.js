@@ -89,7 +89,7 @@ const Projects = () => {
           </div>
           <h1 className='text-[18px] font-bold mt-4 mb-2 px-4 project-heading'>Best Choice</h1>
           <div className="flex flex-col space-y-1 pb-5 px-4">
-            <a className='text-sm link text-secondary' href="https://best-choice-a3d8e.web.app/products">Live Link</a>
+            <a className='text-sm link text-secondary' href="https://best-choice1-a6c56.web.app/">Live Link</a>
             <a className='text-sm link' href="https://github.com/anishazahan/Best-Choice">Client Code Link</a>
           </div>
         </div>
