@@ -20,7 +20,7 @@ const Projects = () => {
   }, [])
 
   return (
-    <div className='my-20 max-w-7xl mx-auto px-10'>
+    <div className='my-20 max-w-7xl mx-auto md:px-10'>
          <h2 className='Projects-heading text-center text-3xl mb-14 text-gray-300'>My Projects</h2>
        {/* <div className="grid grid-col-1 lg:grid-cols-2 gap-y-5 gap-x-4">
        {
