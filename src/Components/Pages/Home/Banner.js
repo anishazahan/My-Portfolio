@@ -15,10 +15,10 @@ const Banner = () => {
             <h1 className='baner-heading text-5xl lg:text-7xl text-white '>Hey !! </h1>
             <h1 className='lg:text-6xl text-5xl banner-heading2 text-white'>I'm <span className='name '>Anisha Zahan</span> </h1>
             
-            <p className='banner-text'>I am a Fronted React JS developer.I will create Your website <br/> as your creative choice! </p>
-           <div className="flex flex-col md:flex-row  space-y-3 md:space-y-0 text-secondary text-medium w-36 md:w-0">
-           <Link className='banner-btn1' to="/">Contact Me</Link>
-            <a className='banner-btn2 ml-0 lg:ml-4' href={resume}
+            <p className='banner-text'>I am a Fronted developer.I will create Your website <br/> as your creative choice! </p>
+           <div className="flex flex-col md:flex-row  space-y-3 md:space-y-0 text-secondary text-medium w-72">
+           <Link className='banner-btn1 w-36 md:w-full' to="/">Contact Me</Link>
+            <a className='banner-btn2 ml-0 lg:ml-4 w-36 md:w-full' href={resume}
              target='_blank' rel="noreferrer" >See Resume</a>
            </div>
       </div>
